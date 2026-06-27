@@ -3,6 +3,7 @@
   <em>“Building the infrastructure for cognitive sovereignty, bridging clinical ethics and decentralized systems.”</em><br>
   <em>“Construyendo la infraestructura para la soberanía cognitiva, uniendo la ética clínica y los sistemas descentralizados.”</em>
 </p>
+
 ---
 
 ## 🎯 About Me / Sobre Mí
