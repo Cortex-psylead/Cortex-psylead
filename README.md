@@ -11,8 +11,9 @@
 | :--- | :--- |
 | I am a **Professional Psychologist** and the **Director & Architect** of [Cortex-Protocol](https://github.com/Cortex-psylead/Cortex-Protocol). My work focuses on designing open-source standards for neurophysiological data sovereignty, bridging clinical psychology, neurotechnology, and secure data architectures to ensure biometric privacy remains under user control. | Soy **Psicólogo Profesional** y el **Director y Arquitecto** de [Cortex-Protocol](https://github.com/Cortex-psylead/Cortex-Protocol). Mi trabajo se centra en el diseño de estándares abiertos para la soberanía de datos neurofisiológicos, conectando la psicología clínica, la neurotecnología y las arquitecturas seguras para garantizar la privacidad biométrica. |
 
-I believe that technology must serve human biology — not the other way around. My role centers on ensuring **clinical safety**, **privacy by design**, and **ethical governance** are enforced at the architectural and hardware level.
-Creo que la tecnología debe servir a la biología humana — no al revés. Mi rol se centra en garantizar que la **seguridad clínica**, la **privacidad por diseño** y la **gobernanza ética** se impongan a nivel de arquitectura y hardware.
+🇺🇸 I believe that technology must serve human biology — not the other way around. My role centers on ensuring **clinical safety**, **privacy by design**, and **ethical governance** are enforced at the architectural and hardware level.
+
+🇨🇴 Creo que la tecnología debe servir a la biología humana — no al revés. Mi rol se centra en garantizar que la **seguridad clínica**, la **privacidad por diseño** y la **gobernanza ética** se impongan a nivel de arquitectura y hardware.
 
 ---
 
