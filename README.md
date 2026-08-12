@@ -1,134 +1,114 @@
 <div align="center">
 
-# 🧠 Cortex-Protocol
-### *Clinical Architecture for Cognitive Sovereignty*
-### *Arquitectura Clínica para la Soberanía Cognitiva*
+# Jhon Andry, B.S.
+### Psicólogo Clínico & Arquitecto de Protocolos de Salud Mental Digital
+### Clinical Psychologist & Digital Mental Health Protocol Architect
 
-**By / Por Jhon Andry, B.S.**  
-*Clinical Psychologist & Protocol Architect / Psicólogo Clínico y Arquitecto de Protocolos*
-
-🇨🇴 Cali, Colombia — Working globally / Trabajando globalmente
-
----
-
-> *"Technology must serve human biology — not the other way around."*
-> *"La tecnología debe servir a la biología humana — no al revés."*
->
-> *"Patient privacy is not a feature. It is the foundation."*
-> *"La privacidad del paciente no es una feature. Es el fundamento."*
+🇨🇴 Cali, Colombia — Colaborando globalmente / Working globally
 
 </div>
 
 ---
 
-## 🎯 What is Cortex-Protocol? / ¿Qué es Cortex-Protocol?
+## 🧠 Sobre mí / About Me
 
-**EN:** Cortex-Protocol is a sovereignty abstraction layer for human-AI interaction in clinical contexts. It is not an app. It is an **ethical-technical standard** for digital psychotherapy.
+**[ES]** Soy psicólogo clínico. No soy desarrollador. Diseño arquitecturas ético-clínicas para que la inteligencia artificial sirva a la psicoterapia sin violar la privacidad del paciente. Construyo estándares, no solo código. Mi trabajo es traducir la ética clínica en especificaciones técnicas que desarrolladores puedan implementar.
 
-**ES:** Cortex-Protocol es una capa de abstracción de soberanía para la interacción humano-IA en contextos clínicos. No es una app. Es un **estándar ético-técnico** para la psicoterapia digital.
-
-- 🔒 **EN:** Data Sovereignty — Patient data never leaves the professional's device.  
-  **ES:** Soberanía de datos — Los datos del paciente nunca salen del dispositivo del profesional.
-- 🛡️ **EN:** Privacy by Design — Hardware encryption, local edge processing, zero cloud.  
-  **ES:** Privacidad por diseño — Cifrado de hardware, procesamiento local, cero nube.
-- ⚖️ **EN:** Clinical Ethics — AI assists, never diagnoses. Therapist has absolute control.  
-  **ES:** Ética clínica — La IA asiste, nunca diagnostica. El terapeuta tiene control absoluto.
-- 🔐 **EN:** Cryptographic Auth — ECDH X25519, ChaCha20-Poly1305.  
-  **ES:** Autenticación criptográfica — ECDH X25519, ChaCha20-Poly1305.
+**[EN]** I am a clinical psychologist. I am not a developer. I design ethical-clinical architectures for artificial intelligence to serve psychotherapy without violating patient privacy. I build standards, not just code. My work is translating clinical ethics into technical specifications that developers can implement.
 
 ---
 
-## 🏗️ Projects / Proyectos
+## 🏗️ Proyecto actual / Current Project
 
 ### [Neuro-Synapse Core](https://github.com/Cortex-psylead/neuro-synapse-core)
 
-**EN:** Edge-AI Orchestrator for Psychotherapists  
-**ES:** Orquestador de IA perimetral para psicoterapeutas
+**[ES]** Orquestador de IA perimetral (edge-AI) para psicoterapeutas. Procesamiento 100% local, cifrado clínico por hardware, cero dependencia de la nube. Analiza prosodia vocal y tests proyectivos gráficos (HTP) como asistencia clínica, nunca como diagnóstico automático.
 
-- **EN:** Vocal prosody analysis (emotional biomarkers in speech)  
-  **ES:** Análisis de prosodia vocal (biomarcadores emocionales)
-- **EN:** Projective graphic test analysis (HTP — House, Tree, Person)  
-  **ES:** Análisis de tests proyectivos gráficos (HTP)
-- **EN:** 100% local: Llama 3.2 via MediaPipe, no internet required  
-  **ES:** 100% local: Llama 3.2 via MediaPipe, sin internet
-- **EN:** Clinical encryption: SQLCipher + hardware (ARM TrustZone / TPM 2.0)  
-  **ES:** Cifrado clínico: SQLCipher + hardware (ARM TrustZone / TPM 2.0)
-- **EN:** Clean Architecture: Kotlin Multiplatform, DDD  
-  **ES:** Arquitectura limpia: Kotlin Multiplatform, DDD
+**[EN]** Edge-AI orchestrator for psychotherapists. 100% local processing, hardware-backed clinical encryption, zero cloud dependency. Analyzes vocal prosody and projective graphic tests (HTP) as clinical assistance, never as automatic diagnosis.
 
-> 🚨 **EN:** Active development. Seeking human collaborators.  
-> 🚨 **ES:** En desarrollo activo. Buscamos colaboradores humanos.
->
-> 📋 [View issues / Ver issues](https://github.com/Cortex-psylead/neuro-synapse-core/issues) | 📖 [View specs / Ver especs](./rfcs)
+**Stack:** Kotlin Multiplatform · MediaPipe LLM Inference (Llama 3.2) · SQLCipher · OpenCV · Clean Architecture + DDD
+
+**Estado / Status:** En desarrollo activo. Buscando colaboradores humanos para reescribir módulos críticos. / Active development. Seeking human collaborators to rewrite critical modules.
 
 ---
 
-## 📐 Clinical Specifications (RFCs) / Especificaciones Clínicas (RFCs)
+## 🛡️ Marco ético: Cortex-Protocol / Ethical Framework: Cortex-Protocol
 
-**EN:** RFCs are technical-clinical documents defining HOW each module must behave from the mental health professional's perspective.  
-**ES:** Las RFCs son documentos técnico-clínicos que definen CÓMO debe comportarse cada módulo desde la perspectiva del profesional.
+**[ES]** No es un producto. Es el conjunto de principios que gobiernan todos mis proyectos:
+- **Soberanía de datos:** Los datos del paciente nunca salen del dispositivo del profesional.
+- **Privacidad por diseño:** Cifrado de hardware, procesamiento local, cero nube.
+- **Ética clínica estructural:** La IA asiste, nunca diagnostica. El terapeuta tiene control absoluto.
+- **Autenticación criptográfica:** ECDH X25519, ChaCha20-Poly1305.
 
-| RFC | Module / Módulo | Status / Estado | Description / Descripción |
-|-----|-----------------|-----------------|---------------------------|
-| [RFC-001](./rfcs/RFC-001.md) | Secure Audio Capture / Captura de Audio Segura | 🟡 Draft / Borrador | Consent, local encryption, zero transmission / Consentimiento, cifrado local, cero transmisión |
-| [RFC-002](./rfcs/RFC-002.md) | Vocal Prosody Engine / Motor de Prosodia Vocal | 🔴 Pending / Pendiente | Clinical vocal biomarkers / Biomarcadores vocales clínicos |
-| [RFC-003](./rfcs/RFC-003.md) | HTP Analysis / Análisis HTP | 🔴 Pending / Pendiente | Computational HTP / HTP computacional |
-| [RFC-004](./rfcs/RFC-004.md) | History Encryption / Cifrado de Historial | 🟡 Draft / Borrador | SQLCipher, biometric keys / SQLCipher, claves biométricas |
-
-> 💡 **EN:** Developer? Each RFC is a documented "job posting." Pick one, implement it, open a PR.  
-> 💡 **ES:** ¿Desarrollador? Cada RFC es un "puesto de trabajo" documentado. Toma uno, impleméntalo, abre un PR.
-
----
-
-## 📚 Research / Investigaciones
-
-| Document / Documento | Topic / Tema |
-|----------------------|--------------|
-| [Whitepaper](./papers/WHITEPAPER.md) | Data Sovereignty in Digital Psychotherapy / Soberanía de Datos en Psicoterapia Digital |
+**[EN]** Not a product. It is the set of principles governing all my projects:
+- **Data sovereignty:** Patient data never leaves the professional's device.
+- **Privacy by design:** Hardware encryption, local processing, zero cloud.
+- **Structured clinical ethics:** AI assists, never diagnoses. The therapist has absolute control.
+- **Cryptographic authentication:** ECDH X25519, ChaCha20-Poly1305.
 
 ---
 
-## 🗺️ Roadmap / Hoja de Ruta
+## 📐 Especificaciones Clínicas Abiertas (RFCs) / Open Clinical Specifications
 
-[View full / Ver completo →](./roadmap/ROADMAP.md)
+**[ES]** Documentos técnicos-clínicos que definen cómo debe comportarse cada módulo desde la perspectiva del profesional de salud mental. Cada RFC es un "puesto de trabajo" documentado para desarrolladores.
 
-- **Q3 2026:** Base RFCs published / RFCs base publicados
-- **Q4 2026:** Clinical pilot validation / Validación clínica piloto
-- **Q1 2027:** Biometric hardware integration / Integración hardware biométrico
-- **2027+:** Federation for DeSci / Federación para DeSci
+**[EN]** Technical-clinical documents defining how each module must behave from the mental health professional's perspective. Each RFC is a documented "job posting" for developers.
 
----
-
-## 🤝 How to Collaborate / ¿Cómo Colaborar?
-
-**Developers / Desarrolladores:** Review RFCs → Read CONTRIBUTING.md → Sign CLA → Code!  
-**Psychologists / Psicólogos:** Review RFCs → Share clinical perspective → Join pilot / Únete al piloto  
-**Researchers / Investigadores:** Collaborate on papers / Colabora en papers → Propose validation studies / Propón estudios
+| RFC | Módulo / Module | Estado / Status |
+|-----|-----------------|-----------------|
+| [RFC-001](https://github.com/Cortex-psylead/Cortex-psylead/blob/main/rfcs/RFC-001.md) | Captura de Audio Segura / Secure Audio Capture | 🟡 Borrador / Draft |
+| [RFC-002](https://github.com/Cortex-psylead/Cortex-psylead/blob/main/rfcs/RFC-002.md) | Motor de Prosodia Vocal / Vocal Prosody Engine | 🔴 Pendiente / Pending |
+| [RFC-003](https://github.com/Cortex-psylead/Cortex-psylead/blob/main/rfcs/RFC-003.md) | Análisis HTP / HTP Analysis | 🔴 Pendiente / Pending |
+| [RFC-004](https://github.com/Cortex-psylead/Cortex-psylead/blob/main/rfcs/RFC-004.md) | Cifrado de Historial / History Encryption | 🟡 Borrador / Draft |
 
 ---
 
-## 🛡️ Governance / Gobernanza
+## 📚 Investigación / Research
 
-- **Clinical Architect / Arquitecto Clínico:** Jhon Andry, B.S. (Psychology / Psicología)
-- **Protocol License / Licencia Protocolo:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
-- **Code License / Licencia Código:** [GNU GPL v3.0](https://www.gnu.org/licenses/gpl-3.0.html)
-- **CLA:** Required / Requerido
+- [Whitepaper: Soberanía de Datos en Psicoterapia Digital / Data Sovereignty in Digital Psychotherapy](https://github.com/Cortex-psylead/Cortex-psylead/blob/main/papers/WHITEPAPER.md)
 
 ---
 
-## 📫 Contact / Contacto
+## 🗺️ Hoja de Ruta / Roadmap
 
-- 📧 [Open an issue / Abrir issue]
+**[ES]**
+- **Q3 2026:** RFCs base publicados, primeros módulos humanizados
+- **Q4 2026:** Validación clínica piloto con colegas psicólogos
+- **Q1 2027:** Integración con hardware biométrico (wearables)
+- **2027+:** Federación de nodos clínicos para investigación descentralizada (DeSci)
+
+**[EN]**
+- **Q3 2026:** Base RFCs published, first modules humanized
+- **Q4 2026:** Clinical pilot validation with psychologist colleagues
+- **Q1 2027:** Biometric hardware integration (wearables)
+- **2027+:** Federation of clinical nodes for decentralized science (DeSci)
+
+---
+
+## 🤝 Colaborar / Collaborate
+
+**[ES]**
+- **¿Eres desarrollador?** Revisa los [RFCs](https://github.com/Cortex-psylead/Cortex-psylead/tree/main/rfcs) y los [issues abiertos](https://github.com/Cortex-psylead/neuro-synapse-core/issues). Lee el `CONTRIBUTING.md`. Firma el CLA. Empieza a codear.
+- **¿Eres psicólogo/clínico?** Revisa los RFCs y comparte tu perspectiva clínica. Únete a las pruebas piloto.
+- **¿Eres investigador?** Colabora en papers y propón estudios de validación.
+
+**[EN]**
+- **Are you a developer?** Review the [RFCs](https://github.com/Cortex-psylead/Cortex-psylead/tree/main/rfcs) and [open issues](https://github.com/Cortex-psylead/neuro-synapse-core/issues). Read `CONTRIBUTING.md`. Sign the CLA. Start coding.
+- **Are you a psychologist/clinician?** Review the RFCs and share your clinical perspective. Join the pilot tests.
+- **Are you a researcher?** Collaborate on papers and propose validation studies.
+
+---
+
+## 📫 Contacto / Contact
+
 - 💬 [GitHub Discussions](https://github.com/Cortex-psylead/Cortex-psylead/discussions)
-- 🌍 Cali, Colombia — collaborating globally / colaborando globalmente
+- 🌍 Cali, Colombia
 
 ---
 
 <div align="center">
 
-*"Technology is not neutral. But it can be structurally neutral — if we design it that way."*  
-*"La tecnología no es neutral. Pero puede ser estructuralmente neutral — si la diseñamos así."*
-
-**🧠 Cortex-Protocol — Cognitive Sovereignty by Design / Soberanía Cognitiva por Diseño.**
+*"La tecnología debe servir a la biología humana — no al revés."*
+*"Technology must serve human biology — not the other way around."*
 
 </div>
